@@ -8,26 +8,26 @@
     - topic:v1cdti/app/get/1212312121/model-01/sn-001
     - payload
         - {"temperature": "25.2"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
+        - {"pressure": "20"}
+        - {"water level": "2"}
+        - {"3-D Positin sensor": "2,2,0"}
+        - {"humanity": "10"}
+        - {"ordor": "normal"}
+        - {"water": "0"}
+        - {"smoke": "Y"}
+        - {"quantity": "6"}
         
 
  1. เซนเซอร์ภายนอกเครื่องซักผ้า
     - topic:v1cdti/app/get/1212312121/model-01/sn-001
     - payload
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
+        - {"Radar": "Y"}
+        - {"humanity": "0"}
+        - {"temperature": "30"}
+        - {"door position": "close"}
+        - {"button": "Y"}
+        - {"touch": "Y"}
+        - {"condition monitoring": "3"}
 
 
 
